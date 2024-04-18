@@ -19,7 +19,11 @@ We used a local node.js server and the Leap.js framework to interface with the L
 
 Works on OS X and Windows.
 
-####To Build:
+###Prerequisites:
+* Node.js and NPM install intructions can be found at the official site here https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+* Node-gyp can be installed by running the command `npm install -g node-gyp` (NOTICE: Apon installation you will need to configure gyp using: `node-gyp configure`)
+
+###To Build:
 * Clone the repo
 * Run npm install in the cloned directory. There may be some errors on Windows, ignore them.
-* For Windows users: Cd into the win_input directory and run node-gyp build (can this be done automatically?).
+* For Windows users: Cd into the win_input directory and run `node-gyp build` (can this be done automatically?).
